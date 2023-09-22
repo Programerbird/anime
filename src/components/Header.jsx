@@ -11,12 +11,20 @@ const Header = () => {
     <div>
       <div className='wrapper_header' >
         <div className='header_main_box' >
-        <Avatar sx={{ bgcolor: green[500] }} variant="square">
-          A
-        </Avatar> 
-          
-        </div>
-      </div>
+          <div className='avatar' >
+           <Avatar sx={{ bgcolor: green[500] }} variant="square">
+             A
+           </Avatar> 
+           <div className='search' >
+           <input  type='text' placeholder="SEARCH"/>
+           </div>
+             
+          </div>
+       </div>
+       <div>
+        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+       </div>
+     </div>
     </div>
   )
 }
