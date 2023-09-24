@@ -1,31 +1,30 @@
 import React from 'react'
 import './Header.css';
+import cat from '../Pictures/cat.jpg'
+import logo from '../Pictures/logo.png'
+import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import { deepOrange,green} from '@mui/material/colors';
-import AvatarGroup from '@mui/material/AvatarGroup';
-import AbcIcon from '@mui/icons-material/Abc';
-import AccessibleIcon from '@mui/icons-material/Accessible';
+
 
 const Header = () => {
   return (
-    <div>
-      <div className='wrapper_header' >
-        <div className='header_main_box' >
-          <div className='avatar' >
-           <Avatar sx={{ bgcolor: green[500] }} variant="square">
-             A
-           </Avatar> 
-           <div className='search' >
-           <input  type='text' placeholder="SEARCH"/>
-           </div>
-             
+      <div className='head_wrapper'>
+        <div className='head_main' >
+          <div className='title' >
+            ANIMEINU
           </div>
-       </div>
-       <div>
-        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-       </div>
-     </div>
-    </div>
+          <div className='search' >
+             <input type="text" placeholder="Search" />
+        </div>
+        <div className="button">
+          {/* <Avatar alt="Remy Sharp" src={cat} /> */}
+          <Button variant="contained" color="success">Sign in</Button>
+          <Button variant="contained" color="success">Sign up</Button>
+          <Button variant="contained" color="success">Get App</Button>
+        </div>
+        </div>
+      </div>
   )
 }
 
