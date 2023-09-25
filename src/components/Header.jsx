@@ -15,14 +15,14 @@ const Header = () => {
             ANIMEINU
           </div>
           <div className='search' >
-             <input type="text" placeholder="Search" />
-        </div>
-        <div className="button">
-          {/* <Avatar alt="Remy Sharp" src={cat} /> */}
-          <Button variant="contained" color="success">Sign in</Button>
-          <Button variant="contained" color="success">Sign up</Button>
-          <Button variant="contained" color="success">Get App</Button>
-        </div>
+          <input type="text" placeholder="Search" />
+          </div>
+          <div className="button">
+            {/* <Avatar alt="Remy Sharp" src={cat} /> */}
+            <Button sx={{ height: '30px', width: '90px', fontSize:'xx-small' }}  variant="contained" color="success" className='button__name'>Sign in</Button>
+            <Button sx={{ height: '30px', width: '90px', fontSize:'xx-small' }} variant="contained" color="success" className='button__name'>Sign up</Button>
+            <Button sx={{ height: '30px', width: '90px', fontSize:'xx-small' }} variant="contained" color="success" className='button__name'>Get App</Button>
+          </div>
         </div>
       </div>
   )
