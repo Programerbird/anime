@@ -1,7 +1,6 @@
 .body_wrapper{
     display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 
 .body_main{
@@ -19,8 +18,8 @@
     /* background-color: red; */
     display: flex;
     padding-top: 50px;
-    justify-content: center;
-    align-items: center;
+    padding-left: 20px;
+    
     
    
     
