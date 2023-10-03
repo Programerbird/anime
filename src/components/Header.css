@@ -1,46 +1,23 @@
 .head_wrapper{
-    /* background-color: rgb(0, 0, 0); */
-    display: flex;
-    border-bottom: 2px solid;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    justify-content: space-evenly;
-    
-}
-.main{
-    /* background-color: pink; */
-    
-}
-
-
-
-.mainlogo{
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    width: 101%;
-    
-
+ border-bottom: 2px solid;
 }
 
 .logo{
     display: flex;
-    width: 190px;
-    padding-right: 90px;
+    justify-content: space-between;
 }
 
-.mainbutton{
-    /* background-color: orange; */
-    display: flex; 
-    
+.anime{
+  width: 50%;
 }
 
-.button{
-    /* background-color: aqua; */
+.text{
+    color: aliceblue;
+}
+
+.my_button{
     display: flex;
     gap: 10px;
     align-items: center;
-   
     
 }
-
