@@ -14,25 +14,27 @@ import SearchIcon from '@mui/icons-material/Search';
 
 function Body() {
   return (
-    <div className='body_wrapper' >
-        <div className='body_main' >
-          <div className='main_buttons' >
-            <div className='buttons' >
-              <div>
-              <Stack direction="column" spacing={10}>
-              <Button variant="contained" >Anime</Button>
-              <Button variant="contained" >Manga</Button>
-              <Button variant="contained" >Chat</Button>
-              </Stack>
-
-              </div>
-             
-            </div>
-          
+    <div>
+      <div className='main_wrapper' >
+        <h1>Login</h1>
+          <div className='placeholders' >
+            <input type='text' placeholder='Email'input/>
+            <input type='text' placeholder='Password'input/>
           </div>
-          
-        </div>
+            <div className='buttons' >
+              <Button variant="contained" color="success">
+                Login
+              </Button>
+                <a href="url">Forgot Password? </a>
+              </div>
+                <div>
+                 <h4>Dont have an account?</h4>
+                 <a href='url'>Sign up</a>
+                </div>
+      </div>
     </div>
+
+  
   )
 }
 
